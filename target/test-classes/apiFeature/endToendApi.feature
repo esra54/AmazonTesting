@@ -1,4 +1,5 @@
-@api1
+@demoend2endApi
+
 Feature: Trello api crud operations for board
   Scenario: create_board
     Given Send POST request for create "a" board
@@ -15,7 +16,18 @@ Feature: Trello api crud operations for board
         Then update the created board name
         And assert board name is updated
 
-  @api3
-  Scenario: delete_board
-    Then delete the created board
-    And assert board name is deleted
+    @api4
+    Scenario: create list
+      Then  from created board ,creates list name as "bugList1"
+      Then  Assert status code for list is 200
+      And   verifies list is created as "bugList1"
+
+      @api5
+      Scenario: create card
+      Given creates card "this is my first card with API"
+      And   verifies card is created
+
+      @api6
+      Scenario: delete_board
+       Then delete the created board
+       And assert board name is deleted

@@ -1,4 +1,4 @@
-@demoend2end
+@demoUIend2end
   Feature: Go to Amazon checking shopping and adding cart system from choosing item to removing item
     Scenario: Checking amazon webpage while shopping
       Given user goes to Amazon WebPage "https://www.amazon.com/"

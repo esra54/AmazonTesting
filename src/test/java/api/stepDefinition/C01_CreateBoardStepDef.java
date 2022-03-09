@@ -141,62 +141,8 @@ public class C01_CreateBoardStepDef extends TestBaseApi {
 
 
 }
-//{name=a, key=f8b3320467128ba1511e10fc8af85cf4, token=3eb5076a19cc4638e8a6355327ce78791f28793d4785d91e389b773381344afb}
-//        {
-//        "id": "6223895cac28eb796a82f77b",
-//        "name": "a",
-//        "desc": "",
-//        "descData": null,
-//        "closed": false,
-//        "idOrganization": "621e4281dadd6362f2a7d0be",
-//        "idEnterprise": null,
-//        "pinned": false,
-//        "url": "https://trello.com/b/dPT3X2MO/a",
-//        "shortUrl": "https://trello.com/b/dPT3X2MO",
-//        "prefs": {
-//        "permissionLevel": "private",
-//        "hideVotes": false,
-//        "voting": "disabled",
-//        "comments": "members",
-//        "invitations": "members",
-//        "selfJoin": true,
-//        "cardCovers": true,
-//        "isTemplate": false,
-//        "cardAging": "regular",
-//        "calendarFeedEnabled": false,
-//        "hiddenPluginBoardButtons": [
-//
-//        ],
-//        "background": "blue",
-//        "backgroundColor": "#0079BF",
-//        "backgroundImage": null,
-//        "backgroundImageScaled": null,
-//        "backgroundTile": false,
-//        "backgroundBrightness": "dark",
-//        "backgroundBottomColor": "#0079BF",
-//        "backgroundTopColor": "#0079BF",
-//        "canBePublic": true,
-//        "canBeEnterprise": true,
-//        "canBeOrg": true,
-//        "canBePrivate": true,
-//        "canInvite": true
-//        },
-//        "labelNames": {
-//        "green": "",
-//        "yellow": "",
-//        "orange": "",
-//        "red": "",
-//        "purple": "",
-//        "blue": "",
-//        "sky": "",
-//        "lime": "",
-//        "pink": "",
-//        "black": ""
-//        },
-//        "limits": {
-//
-//        }
-//        }
+
+
 
 
 

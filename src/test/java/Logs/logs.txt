@@ -187,3 +187,11 @@ java.lang.IllegalStateException: cannot be started once stopped
 2022-03-08 18:13:47 INFO  Log:37 - items are seen in the wish list
 2022-03-08 18:13:51 INFO  Log:37 - url e gitti
 2022-03-08 18:13:53 INFO  Log:37 - link is clicked
+2022-03-08 18:49:25 INFO  Log:37 - url e gitti
+2022-03-08 18:50:04 INFO  Log:37 - items are seen in the wish list
+2022-03-08 18:50:07 INFO  Log:37 - url e gitti
+2022-03-08 18:50:11 INFO  Log:37 - link is clicked
+2022-03-08 23:06:28 INFO  Log:37 - url e gitti
+2022-03-08 23:07:09 INFO  Log:37 - items are seen in the wish list
+2022-03-08 23:07:12 INFO  Log:37 - url e gitti
+2022-03-08 23:07:15 INFO  Log:37 - link is clicked

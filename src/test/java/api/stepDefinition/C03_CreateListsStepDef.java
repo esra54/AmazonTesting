@@ -56,7 +56,7 @@ public class C03_CreateListsStepDef extends TestBaseApi {
 
 
         HashMap<String, String> requestList = new HashMap<>();
-        requestList.put("idBoard",ConfigReader.getProperty("idBoard"));
+        requestList.put("idBoard",ConfigReader.getProperty("idBoardforList"));
         requestList.put("name",bugList);//featuredan isim verdim
         requestList.put("key",ConfigReader.getProperty("key"));
         requestList.put("token",ConfigReader.getProperty("token"));
@@ -77,7 +77,7 @@ public class C03_CreateListsStepDef extends TestBaseApi {
     public void assert_status_code_for_list_is(Integer int1) {
         Assert.assertEquals(200,response.getStatusCode());
      //   Assert.assertEquals("bugList1",createdList);
-        Assert.assertEquals(ConfigReader.getProperty("idBoard"),jsonPath.getString("idBoard"));
+        Assert.assertEquals(ConfigReader.getProperty("idBoard"),jsonPath.getString("idBoardforList"));
 
 
     }
@@ -110,14 +110,8 @@ public class C03_CreateListsStepDef extends TestBaseApi {
         Assert.assertEquals("updateListName",updatedListName);
         Assert.assertEquals(200,response.getStatusCode());
         Assert.assertEquals(ConfigReader.getProperty("idList"),jsonPath.getString("id"));
-        Assert.assertEquals(ConfigReader.getProperty("idBoard"),jsonPath.getString("idBoard"));
+        Assert.assertEquals(ConfigReader.getProperty("idBoard"),jsonPath.getString("idBoardforList"));
     }
-//    {
-//        "id": "6226c0925af7343cd1d437a3",
-//            "name": "updateListName",
-//            "closed": false,
-//            "idBoard": "6226b99d6e690c0a0e0e1a3d",
-//            "pos": 2048
-//    }
+
 
 }
